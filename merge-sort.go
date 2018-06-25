@@ -1,9 +1,5 @@
 package main
 
-import (
-	"fmt"
-)
-
 func mergeSort(lst []int) []int {
 	n := len(lst)
 	var left []int
@@ -51,7 +47,7 @@ func merge(left, right []int) []int {
 	return result
 }
 
-func main() {
-	lst := []int{4, 2, 5, 3, 1, 7, 6}
-	fmt.Println(mergeSort(lst))
-}
+// func main() {
+// 	lst := []int{4, 2, 5, 3, 1, 7, 6}
+// 	fmt.Println(mergeSort(lst))
+// }
